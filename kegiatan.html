@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar with Logo</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+        <img src="b.jpg" alt="Logo" width="50" height="35" class="d-inline-block align-text-top"> <strong>Culture Trip</strong>
+      </a>
+      <!-- Navbar toggler for mobile view -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Navbar items -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kegiatan.html">kegiatan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galeri.html">galeri</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kontak.html">kontak</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kami.html">tentang kami</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav><br><br>
+
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="index.html">beranda</a></li>
+      <li class="breadcrumb-item active" aria-current="page">kegiatan</li>
+    </ol>
+  </nav>
+<div style="text-align: center;">
+    <h2>culture trip</h2>
+</div><br><br>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="k5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> Bersantai Atau Berenang di Ombak yang Tenang. </h5>
+          <p class="card-text"> Wisatawan bisa menikmati kesegaran air laut sembari menikmati pemandangan sekitar. Jangan lupa untuk selalu menjaga keselamatan diri dan keluarga selama berenang.</p>
+       <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Lihat detail
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="k6.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>First slide label</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="k8.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+       
+       
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="k9.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Berpetualang Di Hutan</h5>
+          <p class="card-text">Hutan Hujan Amazon adalah wadah hewan terbesar di dunia, menjadikannya tempat yang bagus untuk tur satwa liar dari sejumlah penginapan hutan hujan yang sangat bagus dan kapal pesiar Sungai Amazon. Karena hutan hujan mencakup 40% benua dan merupakan rumah bagi beragam pilihan aktivitas, kami telah menulis panduan berikut tentang 100 hal yang dapat dilakukan di Hutan Hujan Amazon.</p>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#petualang">
+    Lihat detail
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="petualang" tabindex="-1" aria-labelledby="petualangLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="petualang">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div id="carouselpetualangCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselpetualangCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselpetualangCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselpetualangCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>First slide label</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="k12.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselpetualangCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselpetualangCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+          
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+
+
+    
+    <div class="col">
+      <div class="card h-100">
+        <img src="k13.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Keindahan pulau dan di bawah laut</h5>
+          <p class="card-text"> Ini adalah salah satu pulau terindah di dunia, dan tujuan populer untuk snorkeling dan menyelam. Anda bisa berenang bersama hiu, pari, penyu, dan berbagai spesies ikan.</p>
+
+       <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#esa">
+    Lihat detail
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="esa" tabindex="-1" aria-labelledby="esaLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="esa">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div id="carouselesaCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselesaCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselesaCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselesaCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>First slide label</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="k16.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselesaCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselesaCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
+<br><br>
+
+
+
+
+
+
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="k17.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Lençóis Maranhenses</h5>
+          <p class="card-text">laguna prata di pagi hari dan laguna biru di sore hari. Meskipun lencoisnya tidak penuh air, pertunjukannya luar biasa dan saya harus mengatakan kebenaran yang sulit untuk dijelaskan.</p>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#biruModal">
+    Lihat detail
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="biruModal" tabindex="-1" aria-labelledby="birulLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="biru">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          
+          <div id="carouselbiruCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselbiruCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselbiruCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselbiruCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="k19.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="k20.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="k18.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselbiruCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselbiruCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="k21.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> menikmati Air Terjun Iguazu. </h5>
+          <p class="card-text"> Air terjun Iguaçu adalah nama air terjun yang berlokasi di Sungai Iguazu di perbatasan negara bagian Paraná di Brasil dan provinsi Misiones di Argentina. Air terjun ini membagi sungai menjadi bagian atas dan bawah</p>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#okModal">
+  Lihat detail
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="okModal" tabindex="-1" aria-labelledby="okLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="ok">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+        <div id="carouselokCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselokCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselokCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselokCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="k23.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="k24.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselokCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselokCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col">
+    <div class="card h-100">
+      <img src="k 1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"> kristus sang penebus</h5>
+        <p class="card-text">Sebagai salah satu dari Tujuh Keajaiban Baru Dunia Modern, patung Kristus Sang Penebus merupakan objek wisata yang wajib dikunjungi bagi mereka yang mengunjungi Rio de Janeiro.
+          Berdiri dengan kedua lengan terbuka di Gunung Corcovado setinggi 710 meter (2.329 kaki), dan dikelilingi oleh vegetasi Hutan Atlantik, monumen ikonik ini merupakan citra Brasil yang paling terkenal di dunia.</p>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ppModal">
+Lihat detail
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="ppModal" tabindex="-1" aria-labelledby="ppLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h1 class="modal-title fs-5" id="pp">Modal title</h1>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      
+      <div id="carouselppCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselppCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselppCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselppCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="k4.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselppCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselppCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-primary">Save changes</button>
+    </div>
+  </div>
+</div>
+</div>
+    </div>
+    <div class="card-footer">
+      <small class="text-body-secondary">Last updated 3 mins ago</small>
+    </div>
+  </div>
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar with Logo</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+        <img src="b.jpg" alt="Logo" width="50" height="35" class="d-inline-block align-text-top"> <strong>Culture Trip</strong>
+      </a>
+      <!-- Navbar toggler for mobile view -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Navbar items -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kegiatan.html">kegiatan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galeri.html">galeri</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kontak.html">kontak</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kami.html">tentang kami</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav><br><br>
+
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="index.html">beranda</a></li>
+      <li class="breadcrumb-item active" aria-current="page">kontak</li>
+    </ol>
+     <div style="text-align: center;">
+  </div>
+
+   <div class="container my-5">
+    <h2 class="text-center mb-4">Kontak Kami</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <!-- Registration Form -->
+            <h4>Formulir Pendaftaran</h4>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nama</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="username" class="form-label">Username</label>
+                    <input type="text" class="form-control" id="username" required>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" required>
+                </div>
+                <div class="mb-3">
+                    <label for="address" class="form-label">Alamat</label>
+                    <textarea class="form-control" id="address" rows="3" required></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="phone" class="form-label">No Telepon</label>
+                    <input type="tel" class="form-control" id="phone" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Jenis Kelamin</label><br>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male" class="form-label">Laki-laki</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female" class="form-label">Perempuan</label>
+                </div>
+                <div class="mb-3">
+                    <label for="activity" class="form-label">Jenis Kegiatan</label>
+                    <select class="form-select" id="activity" required>
+                        <option value="" disabled selected>Pilih Kegiatan</option>
+                        <option value="beach">Pantai</option>
+                        <option value="camping">Camping</option>
+                        <option value="trekking">Trekking</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Destinasi yang Ingin Dikunjungi</label><br>
+                    <input type="checkbox" id="destination1" value="beach">
+                    <label for="destination1" class="form-label">Pantai</label><br>
+                    <input type="checkbox" id="destination2" value="mountain">
+                    <label for="destination2" class="form-label">Gunung</label><br>
+                    <input type="checkbox" id="destination3" value="forest">
+                    <label for="destination3" class="form-label">Hutan</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <!-- Feedback Form -->
+            <h4>Masukkan Saran & Kritik</h4>
+            <form>
+                <div class="mb-3">
+                    <label for="feedbackName" class="form-label">Nama</label>
+                    <input type="text" class="form-control" id="feedbackName" required>
+                </div>
+                <div class="mb-3">
+                    <label for="feedbackEmail" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="feedbackEmail" required>
+                </div>
+                <div class="mb-3">
+                    <label for="feedbackMessage" class="form-label">Saran dan Kritik</label>
+                    <textarea class="form-control" id="feedbackMessage" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+        </div>
+    </div>
+</div><br><br>
+<h2 style="text-align: center;"><strong>Lokasi Kantor Culture Trip</strong></h2>
+ <
+
+
+<table style="width: 100%; height: 100vh; border: 0; cellpadding: 0; cellspacing: 0;">
+    <tr>
+        <td style="text-align: center; vertical-align: middle;">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.2736959757915!2d-122.41941808468123!3d37.77492927975957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808581ab6b573cf1%3A0x4f37ef6038ad0409!2sSan%20Francisco%2C%20CA%2094110!5e0!3m2!1sen!2sus!4v1674148275205!5m2!1sen!2sus" 
+                width="600" 
+                height="400">
+            </iframe>
+        </td>
+    </tr>
+</table>
+<footer>
+    <div class="text-center p-3 bg-dark text-white">
+        © 2024 Rekreasi Seru.  Culture Trip.
+    </div>
+</footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</html>
